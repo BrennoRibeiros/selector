@@ -1,2 +1,2 @@
-# selector
- Meu projeto de um seletor
+# seletor
+ Meu projeto de um seletor de patrimônio
