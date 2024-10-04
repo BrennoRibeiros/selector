@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor</title>
+    <link rel="shortcut icon" href="img/Github-Octicons-Check-circle-fill-16.16.png" type="image/png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Seletor de opções</h1>
+    </header>
+    <section>
+        <div>
+            <p>Selecione o sexo:</p>
+            <input type="radio" name="txtsex" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="txtsex" id="feminino">
+            <label for="feminino">Feminino</label>
+
+            <p>Qual o patrimônio:</p>
+            <input type="radio" name="txtnum" id="mil" checked>
+            <label for="mil">R$1.000,00</label>
+            <input type="radio" name="txtnum" id="milhao">
+            <label for="milhao">R$1.000.000,00</label>
+            <input type="radio" name="txtnum" id="bilhao">
+            <label for="bilhao">R$1.000.000.000,00</label>
+        </div>
+
+        <div id="imagem">
+            <img id="foto" src="img/photo-home.jpg">
+        </div>
+
+        <div id="botao">
+            <input type="button" value="verificar" onclick="verificador()">
+        </div>
+    </section>
+    <footer>
+        <p>BrennoRibeiro</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
